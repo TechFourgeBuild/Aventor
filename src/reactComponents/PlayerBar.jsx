@@ -24,6 +24,12 @@ import {
 import FullPlayer from "./FullPlayer";
 
 const PlayerBar = () => {
+  
+  // Preventing the PlayerBar to get render even user is not logged in
+  const { user } = useSelector((s) => s.auth);  
+  if (!user) return null;                       
+  // ----------------------------------------------
+
   const dispatch = useDispatch();
   const { currentSong, isPlaying, volume, progress, duration } = useSelector(
     (s) => s.player,
