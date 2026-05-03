@@ -229,7 +229,7 @@ Component / Thunk
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/aventor.git
+git clone https://github.com/TechFourgeBuild/aventor.git
 cd aventor
 
 # 2. Install dependencies
