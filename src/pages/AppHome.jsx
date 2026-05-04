@@ -244,7 +244,7 @@ const AppHome = () => {
                     }}
                     className="text-[16px] text-[#808080ab]"
                   >
-                    88 songs across 9 moods ready for you
+                    100+ songs across 9 moods ready for you
                   </div>
                 </h1>
                 {/* =============   Rendering Search Bar ============== */}
